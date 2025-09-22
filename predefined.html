@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Predefined Functions in String and Math</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.write("<h2>Predefined Functions of String and Math Object</h2>");
+
+        var num = Math.round(4.4);
+        document.write("Rounding a number using Math.round: " + num);
+
+        var str = "Hello World";
+        document.write("<hr>");
+        document.write("Character at 0th position of '" + str + "' is: " + str.charAt(0));
+
+        var c = 50.65;
+        var x = Math.ceil(c);
+        document.write("<br>Value of " + c + " after using Math.ceil is: " + x);
+
+        var law = "web programming";
+        document.write("<br>'" + law + "' to upper case: " + law.toUpperCase());
+
+        var power = Math.pow(3, 2);
+        document.write("<br>Math.pow(3,2) gives: " + power);
+    </script>
+</body>
+</html>
